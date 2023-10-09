@@ -65,4 +65,8 @@ $(document).ready(function(){
     $('.convert-number').on('click', () => {
       $.fn.convert();
     });
+
+    $(".form-select").on('change', function() {
+      $('.converted-num').text("...");
+  });
 });
